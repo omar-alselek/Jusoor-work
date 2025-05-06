@@ -179,6 +179,11 @@
                                 @error('company_email') <p class="text-red-500 text-xs mt-1">{{ $message }}</p> @enderror
                             </div>
                             <div>
+                                <label for="description" class="block text-sm font-medium text-gray-700">Company Description</label>
+                                <textarea id="description" name="description" rows="4" class="form-textarea mt-1 block w-full {{ $errors->has('description') ? 'border-red-500' : 'border-gray-300' }}">{{ old('description') }}</textarea>
+                                @error('description') <p class="text-red-500 text-xs mt-1">{{ $message }}</p> @enderror
+                            </div>
+                            <div>
                                 <label for="document" class="block text-sm font-medium text-gray-700">Company Document (PDF/JPG/PNG)</label>
                                 <input id="document" name="document" type="file" accept=".pdf,.jpg,.jpeg,.png" class="form-input mt-1 block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-indigo-50 file:text-indigo-700 hover:file:bg-indigo-100 {{ $errors->has('document') ? 'border-red-500' : 'border-gray-300' }}">
                                 @error('document') <p class="text-red-500 text-xs mt-1">{{ $message }}</p> @enderror

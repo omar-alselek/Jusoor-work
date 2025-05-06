@@ -12,20 +12,25 @@ class Application extends Model
     protected $fillable = [
         'job_id',
         'user_id',
-        'cover_letter',
-        'resume_path',
+        'company_id',
+        'message',
+        'cv_path',
         'status',
-        'feedback',
     ];
 
     public function job()
     {
-        return $this->belongsTo(Job::class);
+        return $this->belongsTo(Job::class, 'job_id');
     }
 
     public function user()
     {
-        return $this->belongsTo(User::class);
+        return $this->belongsTo(User::class, 'user_id');
+    }
+
+    public function company()
+    {
+        return $this->belongsTo(Company::class, 'company_id');
     }
 
     public function isPending()

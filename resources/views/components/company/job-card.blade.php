@@ -21,14 +21,15 @@
         <div class="mb-4">
             <h4 class="text-xs font-medium text-gray-500 dark:text-gray-400 mb-1">Skills:</h4>
             <div class="flex flex-wrap gap-1.5">
-                @foreach($job->skills ?? [] as $skill) {{-- Assuming skills is an array/collection --}}
-                    <span class="inline-block bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-300 text-xs font-medium px-2 py-0.5 rounded">
-                        {{ $skill }}
-                    </span>
-                @endforeach
-                 @if(empty($job->skills))
-                     <span class="text-xs text-gray-400 italic">No specific skills listed</span>
-                 @endif
+                @if(!empty($job->required_skills) && is_array($job->required_skills))
+                    @foreach($job->required_skills as $skill)
+                        <span class="inline-block bg-gradient-to-r from-indigo-100 to-blue-100 text-indigo-800 dark:from-indigo-900 dark:to-blue-900 dark:text-indigo-300 text-xs font-medium px-2.5 py-1 rounded-full shadow-sm hover:shadow-md transition-all duration-200">
+                            {{ $skill }}
+                        </span>
+                    @endforeach
+                @else
+                    <span class="text-xs text-gray-400 italic">No specific skills listed</span>
+                @endif
             </div>
         </div>
     </div>

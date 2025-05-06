@@ -90,6 +90,7 @@ class RegisterController extends Controller
             'company_size' => ['required', 'string', 'max:255'],
             'location' => ['required', 'string', 'max:255'],
             'company_email' => ['required', 'string', 'email', 'max:255', 'unique:companies'],
+            'description' => ['required', 'string'],
             'document' => ['required', 'file', 'mimes:pdf,jpg,png', 'max:2048'],
         ]);
 
@@ -102,6 +103,7 @@ class RegisterController extends Controller
             'company_size' => $request->company_size,
             'location' => $request->location,
             'company_email' => $request->company_email,
+            'description' => $request->description,
             'document_path' => $documentPath,
             'status' => 'pending',
         ]);

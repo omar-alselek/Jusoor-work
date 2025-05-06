@@ -7,11 +7,11 @@ $inactiveClasses = 'text-white hover:bg-white/20 hover:text-white';
 @endphp
 
 <a href="{{ route($route) }}"
-   class="group flex items-center px-3 py-2.5 text-sm font-medium rounded-md relative transition-colors duration-200 {{ $isActive ? $activeClasses : $inactiveClasses }}"
+   class="group flex items-center px-3 py-2 text-xs font-medium rounded-md relative transition-colors duration-200 gap-2 {{ $isActive ? $activeClasses : $inactiveClasses }}"
    :class="sidebarOpen ? '' : 'justify-center'">
 
     <svg class="flex-shrink-0 transition-colors duration-200 {{ $isActive ? 'text-white' : 'text-white group-hover:text-white' }}"
-         :class="sidebarOpen ? 'h-6 w-6 mr-3' : 'h-7 w-7'"
+         width="20" height="20" style="min-width:20px;min-height:20px;" 
          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" d="{{ $icon }}" />
     </svg>

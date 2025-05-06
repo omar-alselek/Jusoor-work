@@ -39,7 +39,17 @@
                                     </div>
                                 </div>
                             </td>
-                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100">{{ $application->job->title ?? 'N/A' }}</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-gray-100">
+                                {{ $application->job->title ?? 'N/A' }}
+                                @if($application->message)
+                                    <div class="mt-2 text-xs text-gray-600 dark:text-gray-300"><strong>Message:</strong> {{ $application->message }}</div>
+                                @endif
+                                @if($application->cv_path)
+                                    <div class="mt-1">
+                                        <a href="{{ Storage::url($application->cv_path) }}" target="_blank" class="text-xs text-blue-600 hover:underline">Download CV</a>
+                                    </div>
+                                @endif
+                            </td>
                             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 dark:text-gray-400">{{ $application->created_at->format('Y-m-d') }}</td>
                             <td class="px-6 py-4 whitespace-nowrap">
                                 <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full
@@ -61,7 +71,8 @@
                                          <button type="submit" class="text-red-600 hover:text-red-900 dark:text-red-400 dark:hover:text-red-300 transition-colors text-xs p-1 bg-red-100 dark:bg-red-900/50 rounded-full hover:bg-red-200">Reject</button>
                                      </form>
                                  @endif
-                                 <a href="#" class="text-indigo-600 hover:text-indigo-900 dark:text-indigo-400 dark:hover:text-indigo-300">View</a>
+                                 <a href="{{ route('student.public_profile', $application->user_id) }}" class="text-indigo-600 hover:text-indigo-900 dark:text-indigo-400 dark:hover:text-indigo-300">View</a>
+                                 <a href="{{ route('chat.index') }}?user_id={{ $application->user_id }}" class="text-blue-600 hover:text-blue-900 dark:text-blue-400 dark:hover:text-blue-300 ml-2">Message</a>
                              </td>
                          </tr>
                     @empty

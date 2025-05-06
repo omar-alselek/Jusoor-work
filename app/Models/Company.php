@@ -22,6 +22,7 @@ class Company extends Model
         'additional_documents',
         'status',
         'rejection_reason',
+        'logo_path',
     ];
 
     protected $casts = [

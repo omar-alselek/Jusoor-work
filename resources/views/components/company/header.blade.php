@@ -58,9 +58,19 @@
                 <div class="relative" x-data="{ open: false }">
                     <button @click="open = !open" class="flex items-center text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-primary" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                         <span class="sr-only">Open user menu</span>
-                         {{-- Replace with actual user avatar --}}
-                        <img class="h-9 w-9 rounded-full object-cover" src="https://ui-avatars.com/api/?name={{ urlencode(Auth::user()->name) }}&color=7F9CF5&background=EBF4FF" alt="{{ Auth::user()->name }}">
-                        <span class="hidden lg:block ml-2 text-gray-700 dark:text-gray-200">{{ Auth::user()->name }}</span>
+                         {{-- Replace with company logo if available or use avatar --}}
+                        @if(Auth::user()->company && Auth::user()->company->logo_path)
+                            <div class="flex items-center">
+                                <img class="h-9 w-9 rounded-full object-cover border-2 border-gray-200 dark:border-gray-600" src="{{ Storage::url(Auth::user()->company->logo_path) }}" alt="{{ Auth::user()->name }} Logo">
+                                <div class="ml-3 mr-2 flex flex-col">
+                                    <span class="text-sm font-medium text-gray-700 dark:text-gray-200">{{ Auth::user()->name }}</span>
+                                    <span class="text-xs text-gray-500 dark:text-gray-400">Company</span>
+                                </div>
+                            </div>
+                        @else
+                            <img class="h-9 w-9 rounded-full object-cover" src="https://ui-avatars.com/api/?name={{ urlencode(Auth::user()->name) }}&color=7F9CF5&background=EBF4FF" alt="{{ Auth::user()->name }}">
+                            <span class="hidden lg:block ml-2 text-gray-700 dark:text-gray-200">{{ Auth::user()->name }}</span>
+                        @endif
                         <svg class="hidden lg:block ml-1 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"> <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
                     </button>
 

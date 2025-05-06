@@ -9,24 +9,31 @@ class Job extends Model
 {
     use HasFactory;
 
+    protected $table = 'opportunities';
+
     protected $fillable = [
         'company_id',
         'title',
         'description',
         'type',
         'location',
-        'salary_min',
-        'salary_max',
+        'salary',
+        'working_hours',
+        'required_skills',
+        'duration',
+        'academic_credit',
+        'start_date',
+        'deadline',
         'requirements',
         'benefits',
-        'deadline',
-        'status',
+        'status'
     ];
 
     protected $casts = [
         'deadline' => 'date',
-        'salary_min' => 'decimal:2',
-        'salary_max' => 'decimal:2',
+        'start_date' => 'date',
+        'required_skills' => 'array',
+        'academic_credit' => 'boolean'
     ];
 
     public function company()

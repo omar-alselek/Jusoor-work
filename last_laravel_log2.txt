@@ -1,0 +1,100 @@
+﻿{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.0031217Z","message":{"role":"assistant","content":" E"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.031494Z","message":{"role":"assistant","content":"-commerce"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.0611538Z","message":{"role":"assistant","content":"**:"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.090982Z","message":{"role":"assistant","content":" Developed"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.1203678Z","message":{"role":"assistant","content":" a"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.1496755Z","message":{"role":"assistant","content":" web"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.1784789Z","message":{"role":"assistant","content":" application"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.2080058Z","message":{"role":"assistant","content":" using"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.2837667Z","message":{"role":"assistant","content":" Laravel"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.3128239Z","message":{"role":"assistant","content":" to"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.3419426Z","message":{"role":"assistant","content":" facilitate"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.3707827Z","message":{"role":"assistant","content":" online"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.4002454Z","message":{"role":"assistant","content":" transactions"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.4300758Z","message":{"role":"assistant","content":" and"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.4593192Z","message":{"role":"assistant","content":" provide"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.488989Z","message":{"role":"assistant","content":" an"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.5188894Z","message":{"role":"assistant","content":" intuitive"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.5476826Z","message":{"role":"assistant","content":" user"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.5768991Z","message":{"role":"assistant","content":" interface"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.6056928Z","message":{"role":"assistant","content":" for"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.6343146Z","message":{"role":"assistant","content":" vendors"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.6636521Z","message":{"role":"assistant","content":" and"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.693212Z","message":{"role":"assistant","content":" customers"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.7229585Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.7519854Z","message":{"role":"assistant","content":" This"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.7815662Z","message":{"role":"assistant","content":" project"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.8103389Z","message":{"role":"assistant","content":" showcases"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.840148Z","message":{"role":"assistant","content":" my"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.8698969Z","message":{"role":"assistant","content":" skills"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.9014773Z","message":{"role":"assistant","content":" in"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.9307896Z","message":{"role":"assistant","content":" software"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.9600315Z","message":{"role":"assistant","content":" development"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:31.9890108Z","message":{"role":"assistant","content":","},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.0668738Z","message":{"role":"assistant","content":" with"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.0969205Z","message":{"role":"assistant","content":" a"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.127078Z","message":{"role":"assistant","content":" focus"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.1560716Z","message":{"role":"assistant","content":" on"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.1851903Z","message":{"role":"assistant","content":" creating"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.213927Z","message":{"role":"assistant","content":" a"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.2428473Z","message":{"role":"assistant","content":" seamless"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.2715187Z","message":{"role":"assistant","content":" experience"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.3003706Z","message":{"role":"assistant","content":".\n"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.3301806Z","message":{"role":"assistant","content":"*"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.3591382Z","message":{"role":"assistant","content":" ["},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.3883353Z","message":{"role":"assistant","content":"Optional"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.4181512Z","message":{"role":"assistant","content":":"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.4472259Z","message":{"role":"assistant","content":" Include"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.4767496Z","message":{"role":"assistant","content":" other"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.5058187Z","message":{"role":"assistant","content":" relevant"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.5348169Z","message":{"role":"assistant","content":" projects"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.5635946Z","message":{"role":"assistant","content":" or"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.5930538Z","message":{"role":"assistant","content":" certifications"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.6226365Z","message":{"role":"assistant","content":"]\n\n"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.6519564Z","message":{"role":"assistant","content":"**"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.6810573Z","message":{"role":"assistant","content":"Language"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.7106414Z","message":{"role":"assistant","content":" Skills"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.7394294Z","message":{"role":"assistant","content":"**\n\n"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.768686Z","message":{"role":"assistant","content":"*"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.7976989Z","message":{"role":"assistant","content":" English"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.8267455Z","message":{"role":"assistant","content":":"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.8562771Z","message":{"role":"assistant","content":" Fluent"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.888445Z","message":{"role":"assistant","content":" (+"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.9189851Z","message":{"role":"assistant","content":"963"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.9483626Z","message":{"role":"assistant","content":" "},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:32.9779026Z","message":{"role":"assistant","content":"954"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.0066961Z","message":{"role":"assistant","content":"787"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.0367548Z","message":{"role":"assistant","content":"060"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.066371Z","message":{"role":"assistant","content":")\n"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.0950903Z","message":{"role":"assistant","content":"*"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.123871Z","message":{"role":"assistant","content":" Arabic"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.1525031Z","message":{"role":"assistant","content":":"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.1824066Z","message":{"role":"assistant","content":" Native"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.2116908Z","message":{"role":"assistant","content":"\n\n"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.2409831Z","message":{"role":"assistant","content":"**"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.2701569Z","message":{"role":"assistant","content":"Contact"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.2993766Z","message":{"role":"assistant","content":" Information"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.3293835Z","message":{"role":"assistant","content":"**\n\n"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.3582508Z","message":{"role":"assistant","content":"Om"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.3879298Z","message":{"role":"assistant","content":"AR"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.4176493Z","message":{"role":"assistant","content":" AL"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.4466408Z","message":{"role":"assistant","content":"s"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.4780976Z","message":{"role":"assistant","content":"E"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.507145Z","message":{"role":"assistant","content":"LE"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.5365429Z","message":{"role":"assistant","content":"K"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.565996Z","message":{"role":"assistant","content":"\n"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.5953654Z","message":{"role":"assistant","content":"om"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.6248244Z","message":{"role":"assistant","content":"ar"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.6546559Z","message":{"role":"assistant","content":"alse"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.6848052Z","message":{"role":"assistant","content":"lek"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.7138786Z","message":{"role":"assistant","content":"@gmail"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.7425592Z","message":{"role":"assistant","content":".com"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.7716944Z","message":{"role":"assistant","content":"\n"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.8018254Z","message":{"role":"assistant","content":"+"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.8331536Z","message":{"role":"assistant","content":"963"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.8627101Z","message":{"role":"assistant","content":" "},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.8918907Z","message":{"role":"assistant","content":"954"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.921837Z","message":{"role":"assistant","content":"787"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.9510795Z","message":{"role":"assistant","content":"060"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:28:33.980406Z","message":{"role":"assistant","content":""},"done_reason":"stop","done":true,"total_duration":9257573200,"load_duration":30807900,"prompt_eval_count":360,"prompt_eval_duration":474323800,"eval_count":287,"eval_duration":8751921600}
+  

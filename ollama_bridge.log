@@ -1,0 +1,525 @@
+2025-05-16 20:00:25,936 - ollama_bridge - INFO - Starting Ollama bridge server on port 5005
+2025-05-16 20:00:25,969 - werkzeug - WARNING -  * Debugger is active!
+2025-05-16 20:00:25,974 - werkzeug - INFO -  * Debugger PIN: 540-895-785
+2025-05-16 20:01:10,510 - ollama_bridge - INFO - Received analysis request with prompt length: 2482
+2025-05-16 20:01:10,511 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 20:01:10,519 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 20:01:12,845 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 20:01:14,116 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 20:01:14,117 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 20:01:14,128 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 20:01:14,128 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 206
+2025-05-16 20:01:14,130 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 20:01:14] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 20:02:14,668 - ollama_bridge - INFO - Starting Ollama bridge server on port 5005
+2025-05-16 20:02:14,741 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5005
+ * Running on http://192.168.1.4:5005
+2025-05-16 20:02:14,742 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-16 20:02:14,744 - werkzeug - INFO -  * Restarting with stat
+2025-05-16 20:02:15,194 - ollama_bridge - INFO - Starting Ollama bridge server on port 5005
+2025-05-16 20:02:15,230 - werkzeug - WARNING -  * Debugger is active!
+2025-05-16 20:02:15,235 - werkzeug - INFO -  * Debugger PIN: 540-895-785
+2025-05-16 20:02:32,643 - ollama_bridge - INFO - Received analysis request with prompt length: 2482
+2025-05-16 20:02:32,644 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 20:02:32,645 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 20:02:34,844 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 20:02:45,817 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 20:02:45,817 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 20:02:45,823 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 20:02:45,824 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2063
+2025-05-16 20:02:45,825 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 20:02:45] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 20:02:47,016 - ollama_bridge - INFO - Received analysis request with prompt length: 2482
+2025-05-16 20:02:47,017 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 20:02:47,018 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 20:02:49,193 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 20:02:58,692 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 20:02:58,693 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 20:02:58,698 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 20:02:58,699 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 1895
+2025-05-16 20:02:58,701 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 20:02:58] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 20:02:59,143 - ollama_bridge - INFO - Received analysis request with prompt length: 2482
+2025-05-16 20:02:59,143 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 20:02:59,145 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 20:03:01,293 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 20:03:14,029 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 20:03:14,030 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 20:03:14,037 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 20:03:14,038 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2561
+2025-05-16 20:03:14,040 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 20:03:14] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 20:10:18,615 - ollama_bridge - INFO - Received analysis request with prompt length: 2482
+2025-05-16 20:10:18,616 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 20:10:18,617 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 20:10:25,337 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 20:10:25,599 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 20:10:25,600 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 20:10:25,602 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 20:10:25,602 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 35
+2025-05-16 20:10:25,603 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 20:10:25] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 20:10:52,560 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 20:10:52,560 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 20:10:52,562 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 20:10:54,897 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 20:11:05,929 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 20:11:05,929 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 20:11:05,933 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 20:11:05,935 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 1946
+2025-05-16 20:11:05,935 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 20:11:05] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 20:11:11,611 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 20:11:11,611 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 20:11:11,613 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 20:11:13,942 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 20:11:29,793 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 20:11:29,793 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 20:11:29,798 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 20:11:29,800 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 3096
+2025-05-16 20:11:29,801 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 20:11:29] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 20:16:48,849 - werkzeug - INFO -  * Detected change in 'G:\\xampp\\htdocs\\jusoor-work\\ollama_bridge.py', reloading
+2025-05-16 20:16:48,904 - werkzeug - INFO -  * Restarting with stat
+2025-05-16 20:16:48,945 - werkzeug - INFO -  * Detected change in 'G:\\xampp\\htdocs\\jusoor-work\\ollama_bridge.py', reloading
+2025-05-16 20:16:49,461 - ollama_bridge - INFO - Starting Ollama bridge server on port 5005
+2025-05-16 20:16:49,461 - ollama_bridge - INFO - Starting Ollama bridge server on port 5005
+2025-05-16 20:16:49,502 - werkzeug - WARNING -  * Debugger is active!
+2025-05-16 20:16:49,508 - werkzeug - INFO -  * Debugger PIN: 540-895-785
+2025-05-16 20:16:49,508 - werkzeug - INFO -  * Debugger PIN: 540-895-785
+2025-05-16 20:25:50,790 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 20:25:50,790 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 20:25:50,793 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 20:25:55,589 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 20:26:06,409 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 20:26:06,409 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 20:26:06,417 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 20:26:06,419 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2265
+2025-05-16 20:26:06,420 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 20:26:06] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 20:26:06,430 - ollama_bridge - INFO - Received analysis request with prompt length: 1993
+2025-05-16 20:26:06,430 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 20:26:06,432 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 20:26:08,950 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 20:26:31,043 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 20:26:31,043 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 127)
+2025-05-16 20:26:31,049 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 20:26:31,051 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 3799
+2025-05-16 20:26:31,053 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 20:26:31] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 20:27:42,559 - ollama_bridge - INFO - Received analysis request with prompt length: 1993
+2025-05-16 20:27:42,559 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 20:27:42,561 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 20:27:45,212 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 20:28:07,396 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 20:28:07,396 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 127)
+2025-05-16 20:28:07,401 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 20:28:07,404 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 3713
+2025-05-16 20:28:07,405 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 20:28:07] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 20:28:45,863 - ollama_bridge - INFO - Received analysis request with prompt length: 1993
+2025-05-16 20:28:45,864 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 20:28:45,865 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 20:28:48,390 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 20:29:09,245 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 20:29:09,245 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 127)
+2025-05-16 20:29:09,257 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 20:29:09,260 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 3824
+2025-05-16 20:29:09,261 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 20:29:09] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 20:29:28,709 - ollama_bridge - INFO - Received analysis request with prompt length: 1993
+2025-05-16 20:29:28,710 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 20:29:28,712 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 20:29:31,290 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 20:29:51,375 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 20:29:51,375 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 127)
+2025-05-16 20:29:51,380 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 20:29:51,383 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 3445
+2025-05-16 20:29:51,384 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 20:29:51] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 20:30:30,620 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 20:30:30,621 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 20:30:30,622 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 20:30:33,252 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 20:30:43,732 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 20:30:43,732 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 20:30:43,738 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 20:30:43,740 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2108
+2025-05-16 20:30:43,741 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 20:30:43] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 20:58:26,700 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 20:58:26,701 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 20:58:26,703 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 20:58:34,138 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 20:58:47,515 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 20:58:47,516 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 20:58:47,520 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 20:58:47,523 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2669
+2025-05-16 20:58:47,524 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 20:58:47] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 20:58:59,542 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 20:58:59,542 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 20:58:59,544 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 20:59:01,864 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 20:59:16,197 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 20:59:16,198 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 20:59:16,206 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 20:59:16,208 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2554
+2025-05-16 20:59:16,209 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 20:59:16] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 20:59:28,580 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 20:59:28,580 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 20:59:28,582 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 20:59:31,046 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 20:59:43,624 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 20:59:43,624 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 125)
+2025-05-16 20:59:43,630 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 20:59:43,632 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2232
+2025-05-16 20:59:43,633 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 20:59:43] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 20:59:44,116 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 20:59:44,116 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 20:59:44,117 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 20:59:46,281 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:00:02,596 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:00:02,596 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:00:02,605 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:00:02,607 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 3085
+2025-05-16 21:00:02,608 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:00:02] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:00:08,610 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 21:00:08,610 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:00:08,612 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:00:10,910 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:00:22,057 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:00:22,058 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:00:22,063 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:00:22,066 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2166
+2025-05-16 21:00:22,066 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:00:22] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:00:23,020 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 21:00:23,020 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:00:23,022 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:00:25,204 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:00:38,163 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:00:38,163 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:00:38,170 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:00:38,172 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2604
+2025-05-16 21:00:38,173 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:00:38] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:00:39,287 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 21:00:39,287 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:00:39,289 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:00:41,463 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:00:54,458 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:00:54,459 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:00:54,463 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:00:54,467 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2500
+2025-05-16 21:00:54,468 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:00:54] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:00:55,379 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 21:00:55,379 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:00:55,381 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:00:57,556 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:01:08,181 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:01:08,181 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:01:08,188 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:01:08,190 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 1965
+2025-05-16 21:01:08,191 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:01:08] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:01:09,228 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 21:01:09,228 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:01:09,230 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:01:11,382 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:01:22,785 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:01:22,786 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:01:22,790 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:01:22,791 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2223
+2025-05-16 21:01:22,792 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:01:22] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:01:23,846 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 21:01:23,846 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:01:23,848 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:01:25,974 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:01:40,875 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:01:40,875 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:01:40,880 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:01:40,882 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2852
+2025-05-16 21:01:40,883 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:01:40] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:01:41,751 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 21:01:41,751 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:01:41,753 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:01:43,887 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:01:54,216 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:01:54,216 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:01:54,222 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:01:54,223 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 1959
+2025-05-16 21:01:54,224 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:01:54] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:01:55,081 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 21:01:55,081 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:01:55,083 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:01:57,241 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:02:11,877 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:02:11,877 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:02:11,884 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:02:11,887 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2918
+2025-05-16 21:02:11,888 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:02:11] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:02:13,499 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 21:02:13,500 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:02:13,501 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:02:15,653 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:02:28,384 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:02:28,384 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:02:28,391 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:02:28,392 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2542
+2025-05-16 21:02:28,393 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:02:28] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:02:29,375 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 21:02:29,375 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:02:29,376 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:02:31,515 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:02:44,975 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:02:44,975 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:02:44,979 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:02:44,982 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2577
+2025-05-16 21:02:44,983 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:02:44] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:02:45,903 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 21:02:45,903 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:02:45,904 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:02:48,040 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:03:01,331 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:03:01,331 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:03:01,336 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:03:01,337 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2651
+2025-05-16 21:03:01,338 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:03:01] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:03:45,503 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 21:03:45,503 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:03:45,505 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:03:47,673 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:03:57,576 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:03:57,576 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:03:57,583 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:03:57,585 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2004
+2025-05-16 21:03:57,586 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:03:57] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:04:03,817 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 21:04:03,817 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:04:03,819 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:04:06,186 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:04:17,616 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:04:17,617 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:04:17,623 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:04:17,624 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2285
+2025-05-16 21:04:17,625 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:04:17] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:04:55,524 - ollama_bridge - INFO - Received analysis request with prompt length: 281
+2025-05-16 21:04:55,524 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:04:55,527 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:04:58,002 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:05:19,736 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:05:19,736 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 125)
+2025-05-16 21:05:19,741 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:05:19,744 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 3883
+2025-05-16 21:05:19,745 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:05:19] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:05:20,783 - ollama_bridge - INFO - Received analysis request with prompt length: 281
+2025-05-16 21:05:20,783 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:05:20,785 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:05:22,977 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:05:43,879 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:05:43,879 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:05:43,888 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:05:43,891 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 3733
+2025-05-16 21:05:43,892 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:05:43] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:46:45,271 - ollama_bridge - INFO - Received analysis request with prompt length: 1651
+2025-05-16 21:46:45,271 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:46:45,272 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:46:52,399 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:47:16,058 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:47:16,058 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:47:16,067 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:47:16,069 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 4219
+2025-05-16 21:47:16,070 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:47:16] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:48:17,266 - ollama_bridge - INFO - Received analysis request with prompt length: 1651
+2025-05-16 21:48:17,266 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:48:17,267 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:48:19,939 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:48:41,266 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:48:41,266 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 132)
+2025-05-16 21:48:41,271 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:48:41,274 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 3834
+2025-05-16 21:48:41,275 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:48:41] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:48:56,840 - ollama_bridge - INFO - Received analysis request with prompt length: 1651
+2025-05-16 21:48:56,841 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:48:56,843 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:48:59,392 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:49:16,418 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:49:16,418 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 127)
+2025-05-16 21:49:16,422 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:49:16,424 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2852
+2025-05-16 21:49:16,426 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:49:16] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:49:35,780 - ollama_bridge - INFO - Received analysis request with prompt length: 1651
+2025-05-16 21:49:35,780 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:49:35,781 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:49:38,260 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:49:57,836 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:49:57,836 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 127)
+2025-05-16 21:49:57,842 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:49:57,845 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 3573
+2025-05-16 21:49:57,846 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:49:57] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:50:16,799 - ollama_bridge - INFO - Received analysis request with prompt length: 2231
+2025-05-16 21:50:16,799 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:50:16,801 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:50:19,307 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:50:28,755 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:50:28,755 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:50:28,759 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:50:28,762 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 1859
+2025-05-16 21:50:28,762 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:50:28] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:53:47,620 - ollama_bridge - INFO - Received analysis request with prompt length: 2231
+2025-05-16 21:53:47,620 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:53:47,621 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:53:50,026 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:54:03,491 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:54:03,491 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:54:03,496 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:54:03,498 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2542
+2025-05-16 21:54:03,499 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:54:03] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:54:04,179 - ollama_bridge - INFO - Received analysis request with prompt length: 2231
+2025-05-16 21:54:04,179 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:54:04,181 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:54:06,385 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:54:19,382 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:54:19,382 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:54:19,387 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:54:19,389 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2417
+2025-05-16 21:54:19,390 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:54:19] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:54:19,966 - ollama_bridge - INFO - Received analysis request with prompt length: 2231
+2025-05-16 21:54:19,966 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:54:19,967 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:54:22,155 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:54:31,067 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:54:31,067 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:54:31,073 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:54:31,075 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 1770
+2025-05-16 21:54:31,076 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:54:31] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:54:31,481 - ollama_bridge - INFO - Received analysis request with prompt length: 2231
+2025-05-16 21:54:31,481 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:54:31,482 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:54:33,656 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:54:44,045 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:54:44,046 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:54:44,051 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:54:44,052 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 1969
+2025-05-16 21:54:44,053 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:54:44] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:54:44,470 - ollama_bridge - INFO - Received analysis request with prompt length: 2231
+2025-05-16 21:54:44,470 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:54:44,471 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:54:46,651 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:54:56,362 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:54:56,362 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:54:56,366 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:54:56,368 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 1926
+2025-05-16 21:54:56,369 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:54:56] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:54:56,801 - ollama_bridge - INFO - Received analysis request with prompt length: 2231
+2025-05-16 21:54:56,802 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:54:56,804 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:54:59,019 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 21:55:09,383 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 21:55:09,383 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 21:55:09,389 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 21:55:09,390 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 1977
+2025-05-16 21:55:09,392 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 21:55:09] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 21:59:28,470 - ollama_bridge - INFO - Received analysis request with prompt length: 1651
+2025-05-16 21:59:28,470 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 21:59:28,472 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 21:59:31,119 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 22:00:00,761 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 22:00:00,762 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 132)
+2025-05-16 22:00:00,768 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 22:00:00,771 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 5141
+2025-05-16 22:00:00,772 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 22:00:00] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 22:00:31,657 - ollama_bridge - INFO - Received analysis request with prompt length: 2231
+2025-05-16 22:00:31,657 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 22:00:31,658 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 22:00:34,213 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 22:00:35,017 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 22:00:35,017 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 22:00:35,023 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 22:00:35,024 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 141
+2025-05-16 22:00:35,025 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 22:00:35] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 22:01:10,775 - ollama_bridge - INFO - Received analysis request with prompt length: 2231
+2025-05-16 22:01:10,776 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 22:01:10,777 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 22:01:13,076 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 22:01:22,876 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 22:01:22,876 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 22:01:22,882 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 22:01:22,884 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 1914
+2025-05-16 22:01:22,885 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 22:01:22] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 22:08:16,470 - ollama_bridge - INFO - Received analysis request with prompt length: 1993
+2025-05-16 22:08:16,471 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 22:08:16,473 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 22:08:23,103 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 22:08:49,833 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 22:08:49,834 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 127)
+2025-05-16 22:08:49,840 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 22:08:49,843 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 4692
+2025-05-16 22:08:49,845 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 22:08:49] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 22:08:56,401 - ollama_bridge - INFO - Received analysis request with prompt length: 2563
+2025-05-16 22:08:56,403 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 22:08:56,404 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 22:08:59,180 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 22:09:11,196 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 22:09:11,196 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 22:09:11,207 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 22:09:11,209 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2424
+2025-05-16 22:09:11,210 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 22:09:11] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 22:16:41,584 - ollama_bridge - INFO - Received analysis request with prompt length: 1691
+2025-05-16 22:16:41,585 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 22:16:41,586 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 22:16:45,910 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 22:17:08,489 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 22:17:08,489 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 132)
+2025-05-16 22:17:08,495 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 22:17:08,498 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 4135
+2025-05-16 22:17:08,498 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 22:17:08] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 22:17:19,830 - ollama_bridge - INFO - Received analysis request with prompt length: 2264
+2025-05-16 22:17:19,830 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 22:17:19,832 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 22:17:22,370 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 22:17:34,679 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 22:17:34,679 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 125)
+2025-05-16 22:17:34,683 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 22:17:34,686 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2419
+2025-05-16 22:17:34,687 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 22:17:34] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 22:17:54,556 - ollama_bridge - INFO - Received analysis request with prompt length: 2264
+2025-05-16 22:17:54,556 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 22:17:54,558 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 22:17:56,895 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 22:18:07,051 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 22:18:07,051 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 22:18:07,059 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 22:18:07,062 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2004
+2025-05-16 22:18:07,063 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 22:18:07] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 22:18:07,598 - ollama_bridge - INFO - Received analysis request with prompt length: 2264
+2025-05-16 22:18:07,599 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 22:18:07,600 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 22:18:09,758 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 22:18:23,135 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 22:18:23,135 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 22:18:23,141 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 22:18:23,143 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2510
+2025-05-16 22:18:23,144 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 22:18:23] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 22:18:34,767 - ollama_bridge - INFO - Received analysis request with prompt length: 2264
+2025-05-16 22:18:34,767 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 22:18:34,768 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 22:18:37,066 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 22:18:47,828 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 22:18:47,828 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 22:18:47,832 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 22:18:47,833 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2155
+2025-05-16 22:18:47,835 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 22:18:47] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 22:18:48,287 - ollama_bridge - INFO - Received analysis request with prompt length: 2264
+2025-05-16 22:18:48,287 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 22:18:48,288 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 22:18:50,499 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 22:19:02,165 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 22:19:02,165 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 22:19:02,171 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 22:19:02,173 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2346
+2025-05-16 22:19:02,174 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 22:19:02] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 22:19:12,797 - ollama_bridge - INFO - Received analysis request with prompt length: 2264
+2025-05-16 22:19:12,797 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 22:19:12,799 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 22:19:15,054 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 22:19:26,144 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 22:19:26,144 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 22:19:26,150 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 22:19:26,152 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2270
+2025-05-16 22:19:26,153 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 22:19:26] "POST /analyze HTTP/1.1" 200 -
+2025-05-16 22:19:26,615 - ollama_bridge - INFO - Received analysis request with prompt length: 2264
+2025-05-16 22:19:26,615 - ollama_bridge - INFO - Attempt 1/3 to connect to Ollama
+2025-05-16 22:19:26,617 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:11434
+2025-05-16 22:19:28,754 - urllib3.connectionpool - DEBUG - http://localhost:11434 "POST /api/chat HTTP/1.1" 200 None
+2025-05-16 22:19:41,898 - ollama_bridge - INFO - Ollama response status: 200
+2025-05-16 22:19:41,898 - ollama_bridge - ERROR - Error parsing Ollama response: Extra data: line 2 column 1 (char 126)
+2025-05-16 22:19:41,902 - charset_normalizer - DEBUG - Encoding detection: ascii is most likely the one.
+2025-05-16 22:19:41,904 - ollama_bridge - INFO - Successfully extracted content from stream response, length: 2533
+2025-05-16 22:19:41,906 - werkzeug - INFO - 127.0.0.1 - - [16/May/2025 22:19:41] "POST /analyze HTTP/1.1" 200 -

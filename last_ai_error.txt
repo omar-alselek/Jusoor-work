@@ -1,0 +1,40 @@
+﻿{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:54.8999977Z","message":{"role":"assistant","content":"**:"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:54.9445659Z","message":{"role":"assistant","content":" Clar"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:54.9778671Z","message":{"role":"assistant","content":"ified"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.0095482Z","message":{"role":"assistant","content":" Omar"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.0415788Z","message":{"role":"assistant","content":"'s"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.0734501Z","message":{"role":"assistant","content":" language"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.1053267Z","message":{"role":"assistant","content":" proficiency"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.1380219Z","message":{"role":"assistant","content":" in"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.1698373Z","message":{"role":"assistant","content":" both"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.2025108Z","message":{"role":"assistant","content":" English"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.2342632Z","message":{"role":"assistant","content":" and"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.2652702Z","message":{"role":"assistant","content":" Arabic"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.2965315Z","message":{"role":"assistant","content":".\n"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.3278837Z","message":{"role":"assistant","content":"8"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.3598061Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.3920559Z","message":{"role":"assistant","content":" **"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.4238079Z","message":{"role":"assistant","content":"Removed"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.4564961Z","message":{"role":"assistant","content":" ty"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.4863519Z","message":{"role":"assistant","content":"pos"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.5221205Z","message":{"role":"assistant","content":" and"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.5549853Z","message":{"role":"assistant","content":" gramm"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.5874585Z","message":{"role":"assistant","content":"atical"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.6209238Z","message":{"role":"assistant","content":" errors"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.65482Z","message":{"role":"assistant","content":"**:"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.6861762Z","message":{"role":"assistant","content":" Ens"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.7183112Z","message":{"role":"assistant","content":"ured"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.7504957Z","message":{"role":"assistant","content":" the"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.7822783Z","message":{"role":"assistant","content":" CV"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.8140871Z","message":{"role":"assistant","content":" is"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.8465289Z","message":{"role":"assistant","content":" free"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.8786606Z","message":{"role":"assistant","content":" of"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.9107463Z","message":{"role":"assistant","content":" errors"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.9439135Z","message":{"role":"assistant","content":" to"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:55.9766418Z","message":{"role":"assistant","content":" maintain"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:56.0081654Z","message":{"role":"assistant","content":" professionalism"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:56.0401364Z","message":{"role":"assistant","content":" and"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:56.0712707Z","message":{"role":"assistant","content":" credibility"},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:56.1027839Z","message":{"role":"assistant","content":"."},"done":false}
+{"model":"llama3.2:3b","created_at":"2025-05-12T21:34:56.1336457Z","message":{"role":"assistant","content":""},"done_reason":"stop","done":true,"total_duration":18136180100,"load_duration":23148100,"prompt_eval_count":360,"prompt_eval_duration":218167300,"eval_count":557,"eval_duration":17889089400}
+  

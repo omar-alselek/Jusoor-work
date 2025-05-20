@@ -92,6 +92,9 @@ class StudentController extends Controller
     public function opportunities(Request $request)
     {
         $query = Job::where('status', 'active');
+        if (Auth::user()->isJobSeeker()) {
+            $query->where('type', '!=', 'internship');
+        }
         
         // Apply search filter
         if ($request->filled('search')) {

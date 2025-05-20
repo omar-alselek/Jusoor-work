@@ -42,11 +42,14 @@
                                         {{ in_array('part-time', request('type', [])) ? 'checked' : '' }}>
                                     <label for="type-part-time" class="ml-3 text-sm text-gray-600">Part-Time</label>
                                 </div>
+                                @php $isJobSeeker = Auth::user() && Auth::user()->isJobSeeker(); @endphp
+                                @if(!$isJobSeeker)
                                 <div class="flex items-center">
                                     <input id="type-internship" name="type[]" value="internship" type="checkbox" class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
                                         {{ in_array('internship', request('type', [])) ? 'checked' : '' }}>
                                     <label for="type-internship" class="ml-3 text-sm text-gray-600">Internship</label>
                                 </div>
+                                @endif
                             </div>
                         </div>
                         
@@ -161,6 +164,9 @@
                     
                     @if($opportunities->count() > 0)
                         @foreach($opportunities as $opportunity)
+                            @if($isJobSeeker && $opportunity->type === 'internship')
+                                @continue
+                            @endif
                             <div class="p-6 hover:bg-gray-50 transition-colors duration-150">
                                 <div class="flex items-start">
                                     @if($opportunity->company && $opportunity->company->logo_path)
@@ -176,9 +182,13 @@
                                     <div class="flex-1">
                                         <div class="flex items-center justify-between">
                                             <h3 class="text-lg font-medium text-gray-800">{{ $opportunity->title }}</h3>
-                                            <span class="inline-flex items-center rounded-full bg-indigo-50 px-2.5 py-0.5 text-xs font-medium text-indigo-600">
-                                                {{ ucfirst($opportunity->type) }}
-                                            </span>
+                                            @if($opportunity->type === 'internship' && !$isJobSeeker)
+                                                <span class="ml-2 px-2 py-1 text-xs font-semibold rounded-full bg-indigo-50 text-indigo-600">Internship</span>
+                                            @elseif($opportunity->type === 'full-time')
+                                                <span class="ml-2 px-2 py-1 text-xs font-semibold rounded-full bg-green-50 text-green-600">Full-Time</span>
+                                            @elseif($opportunity->type === 'part-time')
+                                                <span class="ml-2 px-2 py-1 text-xs font-semibold rounded-full bg-yellow-50 text-yellow-600">Part-Time</span>
+                                            @endif
                                         </div>
                                         
                                         <p class="text-sm text-gray-600">{{ $opportunity->company->name ?? 'Company' }}</p>

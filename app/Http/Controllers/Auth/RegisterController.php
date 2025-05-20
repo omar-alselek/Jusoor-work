@@ -56,11 +56,10 @@ class RegisterController extends Controller
         // Redirect based on role
         switch ($user->role) {
             case 'student':
+            case 'job_seeker':
                 return redirect()->route('student.dashboard');
             case 'company':
                 return redirect()->route('company.dashboard');
-            case 'job_seeker':
-                return redirect()->route('job_seeker.dashboard');
             default:
                 return redirect()->route('dashboard');
         }

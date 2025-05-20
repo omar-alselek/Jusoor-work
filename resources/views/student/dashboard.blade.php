@@ -8,7 +8,14 @@
         <div class="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-lg shadow-lg">
             <div class="px-6 py-8 md:px-10">
                 <h1 class="text-2xl md:text-3xl font-bold text-white">Welcome, {{ Auth::user()->name }}!</h1>
-                <p class="mt-2 text-indigo-100">Your gateway to internships and opportunities that match your profile.</p>
+                @php $isJobSeeker = Auth::user() && Auth::user()->isJobSeeker(); @endphp
+                <p class="mt-2 text-indigo-100">
+                    @if($isJobSeeker)
+                        Your gateway to job opportunities that match your profile.
+                    @else
+                        Your gateway to internships and opportunities that match your profile.
+                    @endif
+                </p>
             </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -95,7 +102,13 @@
                             </div>
                             <div>
                                 <h3 class="text-sm font-medium text-gray-800">Browse Opportunities</h3>
-                                <p class="text-xs text-gray-500">Find internships and job openings</p>
+                                <p class="text-xs text-gray-500">
+                                    @if($isJobSeeker)
+                                        Find job openings
+                                    @else
+                                        Find internships and job openings
+                                    @endif
+                                </p>
                             </div>
                         </a>
                         <a href="{{ route('student.profile') }}" class="flex items-center p-3 bg-gray-50 hover:bg-indigo-50 rounded-lg transition-colors duration-200">
@@ -128,7 +141,7 @@
         <div class="bg-white rounded-lg shadow-md border border-gray-100 overflow-hidden">
             <div class="px-6 py-4 border-b border-gray-100">
                 <div class="flex items-center justify-between">
-                    <h2 class="text-lg font-semibold text-gray-800">Recommended Opportunities</h2>
+                    <h2 class="text-lg font-semibold text-gray-800">New Opportunities</h2>
                     <a href="{{ route('student.opportunities') }}" class="text-indigo-600 hover:text-indigo-800 text-sm font-medium">View All</a>
                 </div>
             </div>

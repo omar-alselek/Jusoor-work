@@ -10,6 +10,7 @@ use App\Http\Controllers\Company\ApplicationController;
 use App\Http\Controllers\ChatController;
 use App\Http\Controllers\NotificationController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 // Homepage
 Route::get('/', function () {
@@ -51,10 +52,17 @@ Route::middleware('auth')->group(function () {
 });
 
 // Student Routes
-Route::middleware(['auth', \App\Http\Middleware\StudentMiddleware::class])->prefix('student')->name('student.')->group(function () {
+Route::middleware(['auth', \App\Http\Middleware\StudentOrJobSeekerMiddleware::class])->prefix('student')->name('student.')->group(function () {
     Route::get('/dashboard', [App\Http\Controllers\Student\StudentController::class, 'dashboard'])->name('dashboard');
     Route::get('/profile', [App\Http\Controllers\Student\StudentController::class, 'profile'])->name('profile');
     Route::put('/profile/update', [App\Http\Controllers\Student\StudentController::class, 'updateProfile'])->name('profile.update');
+    
+    // Only students can access training opportunities
+    Route::middleware(['only_student'])->group(function () {
+        Route::get('/training-opportunities', [App\Http\Controllers\Student\StudentController::class, 'trainingOpportunities'])->name('training-opportunities');
+        Route::get('/training-opportunities/{id}', [App\Http\Controllers\Student\StudentController::class, 'showTrainingOpportunity'])->name('training-opportunities.show');
+        Route::post('/training-opportunities/{id}/apply', [App\Http\Controllers\Student\StudentController::class, 'applyTrainingOpportunity'])->name('training-opportunities.apply');
+    });
     
     Route::get('/opportunities', [App\Http\Controllers\Student\StudentController::class, 'opportunities'])->name('opportunities');
     Route::get('/opportunities/{id}', [App\Http\Controllers\Student\StudentController::class, 'showOpportunity'])->name('opportunities.show');
@@ -62,6 +70,18 @@ Route::middleware(['auth', \App\Http\Middleware\StudentMiddleware::class])->pref
     
     Route::get('/messages', [App\Http\Controllers\Student\StudentController::class, 'messages'])->name('messages');
     Route::get('/notifications', [App\Http\Controllers\Student\StudentController::class, 'notifications'])->name('notifications');
+    
+    // AI CV Analyzer
+    Route::get('/ai-cv-analyzer', [App\Http\Controllers\Student\AICVAnalyzerController::class, 'index'])->name('ai-cv-analyzer');
+    Route::post('/ai-cv-analyzer/analyze', [App\Http\Controllers\Student\AICVAnalyzerController::class, 'analyze'])->name('ai-cv-analyzer.analyze');
+    Route::get('/ai-cv-analyzer/analyze', function() {
+        return redirect()->route('student.ai-cv-analyzer');
+    });
+    Route::post('/ai-cv-analyzer/compare', [App\Http\Controllers\Student\AICVAnalyzerController::class, 'handleJobComparison'])->name('ai-cv-analyzer.compare');
+    Route::get('/ai-cv-analyzer/compare', function() {
+        return redirect()->route('student.ai-cv-analyzer');
+    });
+    Route::get('/ai-cv-analyzer/debug-api', [App\Http\Controllers\Student\AICVAnalyzerController::class, 'debugOllamaAPI'])->name('ai-cv-analyzer.debug-api');
 });
 
 // Public Student Profile
@@ -102,9 +122,7 @@ Route::middleware(['auth', \App\Http\Middleware\CompanyMiddleware::class])->pref
 
 // Job Seeker Routes
 Route::middleware(['auth', \App\Http\Middleware\JobSeekerMiddleware::class])->prefix('job-seeker')->name('job_seeker.')->group(function () {
-    Route::get('/dashboard', function () {
-        return view('job_seeker.dashboard');
-    })->name('dashboard');
+    // This route group is now empty and can be removed
 });
 
 // Test Email Route

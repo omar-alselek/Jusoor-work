@@ -54,6 +54,8 @@ class Kernel extends HttpKernel
         'student' => \App\Http\Middleware\StudentMiddleware::class,
         'company' => \App\Http\Middleware\CompanyMiddleware::class,
         'job_seeker' => \App\Http\Middleware\JobSeekerMiddleware::class,
+        'student_or_job_seeker' => \App\Http\Middleware\StudentOrJobSeekerMiddleware::class,
+        'only_student' => \App\Http\Middleware\OnlyStudentMiddleware::class,
     ];
 
     /**
@@ -78,5 +80,7 @@ class Kernel extends HttpKernel
         'student' => \App\Http\Middleware\StudentMiddleware::class,
         'company' => \App\Http\Middleware\CompanyMiddleware::class,
         'job_seeker' => \App\Http\Middleware\JobSeekerMiddleware::class,
+        'student_or_job_seeker' => \App\Http\Middleware\StudentOrJobSeekerMiddleware::class,
+        'only_student' => \App\Http\Middleware\OnlyStudentMiddleware::class,
     ];
 } 
